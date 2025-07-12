@@ -126,7 +126,7 @@ win.geometry("600x600")
 
 name_label = Label(win, text="Chaudhary Yashpal  Weather App",
                    font=("Times New Roman", 20, "bold"))
-name_label.place(x=25, y=50, height=50, width=550)
+name_label.place(x=25, y=50, height=50, width=560)
 
 city_name = StringVar()
 
