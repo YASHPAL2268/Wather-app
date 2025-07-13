@@ -120,11 +120,11 @@ def data_get():
     per_label1.config(text=str(data["main"]["pressure"]) + " hPa")
 
 win = Tk()
-win.title("Chaudhary Yashpal")
+win.title(" Weather App")
 win.config(background="blue")
-win.geometry("600x600")
+win.geometry("610x610")
 
-name_label = Label(win, text="Chaudhary Yashpal  Weather App",
+name_label = Label(win, text=" Weather App",
                    font=("Times New Roman", 20, "bold"))
 name_label.place(x=25, y=50, height=50, width=550)
 
